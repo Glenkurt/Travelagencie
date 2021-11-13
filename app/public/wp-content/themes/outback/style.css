@@ -1,0 +1,15 @@
+/*
+Theme Name: Outback
+Author: Glenkurt
+Description: Site vitrine pour agence de voyage Outback
+Version: 1.0
+Template: bravada
+
+This is the child theme for Bravada theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+p {
+	margin-top: 20px;
+	margin-bottom:20px;
+}

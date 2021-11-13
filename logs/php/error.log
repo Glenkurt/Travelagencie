@@ -1,0 +1,301 @@
+[10-Nov-2021 21:25:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:25:47 UTC] PHP Stack trace:
+[10-Nov-2021 21:25:47 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:25:47 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:25:47 UTC] PHP   3. wp() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:16
+[10-Nov-2021 21:25:47 UTC] PHP   4. WP->main() /home/glenkurt/Code_/WordPress/app/public/wp-includes/functions.php:1291
+[10-Nov-2021 21:25:47 UTC] PHP   5. WP->parse_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:750
+[10-Nov-2021 21:25:47 UTC] PHP   6. do_action_ref_array() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:388
+[10-Nov-2021 21:25:47 UTC] PHP   7. WP_Hook->do_action() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:518
+[10-Nov-2021 21:25:47 UTC] PHP   8. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:327
+[10-Nov-2021 21:25:47 UTC] PHP   9. rest_api_loaded() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:25:47 UTC] PHP  10. WP_REST_Server->serve_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api.php:370
+[10-Nov-2021 21:25:47 UTC] PHP  11. WP_REST_Server->dispatch() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[10-Nov-2021 21:25:47 UTC] PHP  12. WP_REST_Server->respond_to_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[10-Nov-2021 21:25:47 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[10-Nov-2021 21:25:47 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:893
+[10-Nov-2021 21:25:47 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[10-Nov-2021 21:25:47 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:25:47 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:25:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:25:47 UTC] PHP Stack trace:
+[10-Nov-2021 21:25:47 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:25:47 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:25:47 UTC] PHP   3. wp() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:16
+[10-Nov-2021 21:25:47 UTC] PHP   4. WP->main() /home/glenkurt/Code_/WordPress/app/public/wp-includes/functions.php:1291
+[10-Nov-2021 21:25:47 UTC] PHP   5. WP->parse_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:750
+[10-Nov-2021 21:25:47 UTC] PHP   6. do_action_ref_array() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:388
+[10-Nov-2021 21:25:47 UTC] PHP   7. WP_Hook->do_action() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:518
+[10-Nov-2021 21:25:47 UTC] PHP   8. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:327
+[10-Nov-2021 21:25:47 UTC] PHP   9. rest_api_loaded() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:25:47 UTC] PHP  10. WP_REST_Server->serve_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api.php:370
+[10-Nov-2021 21:25:47 UTC] PHP  11. WP_REST_Server->dispatch() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[10-Nov-2021 21:25:47 UTC] PHP  12. WP_REST_Server->respond_to_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[10-Nov-2021 21:25:47 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[10-Nov-2021 21:25:47 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:893
+[10-Nov-2021 21:25:47 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1803
+[10-Nov-2021 21:25:47 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:25:47 UTC] PHP  17. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:25:47 UTC] PHP  18. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:25:47 UTC] PHP  19. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:25:47 UTC] PHP  20. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:26:06 UTC] PHP Stack trace:
+[10-Nov-2021 21:26:06 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:26:06 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:26:06 UTC] PHP   3. wp() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:16
+[10-Nov-2021 21:26:06 UTC] PHP   4. WP->main() /home/glenkurt/Code_/WordPress/app/public/wp-includes/functions.php:1291
+[10-Nov-2021 21:26:06 UTC] PHP   5. WP->parse_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:750
+[10-Nov-2021 21:26:06 UTC] PHP   6. do_action_ref_array() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:388
+[10-Nov-2021 21:26:06 UTC] PHP   7. WP_Hook->do_action() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:518
+[10-Nov-2021 21:26:06 UTC] PHP   8. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:327
+[10-Nov-2021 21:26:06 UTC] PHP   9. rest_api_loaded() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:06 UTC] PHP  10. WP_REST_Server->serve_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api.php:370
+[10-Nov-2021 21:26:06 UTC] PHP  11. WP_REST_Server->dispatch() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[10-Nov-2021 21:26:06 UTC] PHP  12. WP_REST_Server->respond_to_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[10-Nov-2021 21:26:06 UTC] PHP  13. WP_REST_Posts_Controller->get_items() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[10-Nov-2021 21:26:06 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:367
+[10-Nov-2021 21:26:06 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[10-Nov-2021 21:26:06 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:06 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:26:06 UTC] PHP Stack trace:
+[10-Nov-2021 21:26:06 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:26:06 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:26:06 UTC] PHP   3. wp() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:16
+[10-Nov-2021 21:26:06 UTC] PHP   4. WP->main() /home/glenkurt/Code_/WordPress/app/public/wp-includes/functions.php:1291
+[10-Nov-2021 21:26:06 UTC] PHP   5. WP->parse_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:750
+[10-Nov-2021 21:26:06 UTC] PHP   6. do_action_ref_array() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp.php:388
+[10-Nov-2021 21:26:06 UTC] PHP   7. WP_Hook->do_action() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:518
+[10-Nov-2021 21:26:06 UTC] PHP   8. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:327
+[10-Nov-2021 21:26:06 UTC] PHP   9. rest_api_loaded() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:06 UTC] PHP  10. WP_REST_Server->serve_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api.php:370
+[10-Nov-2021 21:26:06 UTC] PHP  11. WP_REST_Server->dispatch() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[10-Nov-2021 21:26:06 UTC] PHP  12. WP_REST_Server->respond_to_request() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[10-Nov-2021 21:26:06 UTC] PHP  13. WP_REST_Posts_Controller->get_items() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[10-Nov-2021 21:26:06 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:367
+[10-Nov-2021 21:26:06 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1803
+[10-Nov-2021 21:26:06 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:06 UTC] PHP  17. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:06 UTC] PHP  18. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:26:06 UTC] PHP  19. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:06 UTC] PHP  20. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:26:41 UTC] PHP Stack trace:
+[10-Nov-2021 21:26:41 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:26:41 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:26:41 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:26:41 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:26:41 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:26:41 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:26:41 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:26:41 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:26:41 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:26:41 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:26:41 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:26:41 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:26:41 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:41 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:41 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:26:41 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:41 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:26:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:26:49 UTC] PHP Stack trace:
+[10-Nov-2021 21:26:49 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:26:49 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:26:49 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:26:49 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:26:49 UTC] PHP   5. the_content() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/single.php:37
+[10-Nov-2021 21:26:49 UTC] PHP   6. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:253
+[10-Nov-2021 21:26:49 UTC] PHP   7. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:26:49 UTC] PHP   8. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:27:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:27:29 UTC] PHP Stack trace:
+[10-Nov-2021 21:27:29 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:27:29 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:27:29 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:27:29 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:27:29 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:27:29 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:27:29 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:27:29 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:27:29 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:27:29 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:27:29 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:27:29 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:27:29 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:27:29 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:27:29 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:27:29 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:27:29 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:30:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:30:28 UTC] PHP Stack trace:
+[10-Nov-2021 21:30:28 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:30:28 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:30:28 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:30:28 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:30:28 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:30:28 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:30:28 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:30:28 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:30:28 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:30:28 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:30:28 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:30:28 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:30:28 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:30:28 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:30:28 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:30:28 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:30:28 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:31:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:31:25 UTC] PHP Stack trace:
+[10-Nov-2021 21:31:25 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:31:25 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:31:25 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:31:25 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:31:25 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:31:25 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:31:25 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:31:25 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:31:25 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:31:25 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:31:25 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:31:25 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:31:25 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:31:25 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:31:25 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:31:25 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:31:25 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:31:42 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:31:42 UTC] PHP Stack trace:
+[10-Nov-2021 21:31:42 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:31:42 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:31:42 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:31:42 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:31:42 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:31:42 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:31:42 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:31:42 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:31:42 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:31:42 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:31:42 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:31:42 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:31:42 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:31:42 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:31:42 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:31:42 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:31:42 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:31 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:32:31 UTC] PHP Stack trace:
+[10-Nov-2021 21:32:31 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:32:31 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:32:31 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:32:31 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:32:31 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:32:31 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:32:31 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:32:31 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:32:31 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:32:31 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:32:31 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:32:31 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:32:31 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:31 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:31 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:32:31 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:31 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:32:51 UTC] PHP Stack trace:
+[10-Nov-2021 21:32:51 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:32:51 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:32:51 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:32:51 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:32:51 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:32:51 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:32:51 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:32:51 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:32:51 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:32:51 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:32:51 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:32:51 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:32:51 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:51 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:51 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:32:51 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:51 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:32:53 UTC] PHP Stack trace:
+[10-Nov-2021 21:32:53 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:32:53 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:32:53 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:32:53 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:32:53 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:32:53 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:32:53 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:32:53 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:32:53 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:32:53 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:32:53 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:32:53 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:32:53 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:53 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:32:53 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:32:53 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:32:53 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:34:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:34:23 UTC] PHP Stack trace:
+[10-Nov-2021 21:34:23 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:34:23 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:34:23 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:34:23 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:34:23 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:34:23 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:34:23 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:34:23 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:34:23 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:34:23 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:34:23 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:34:23 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:34:23 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:34:23 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:34:23 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:34:23 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:34:23 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:37:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:37:04 UTC] PHP Stack trace:
+[10-Nov-2021 21:37:04 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:37:04 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:37:04 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:37:04 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:37:04 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:37:04 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:37:04 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:37:04 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:37:04 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:37:04 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:37:04 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:37:04 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:37:04 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:37:04 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:37:04 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:37:04 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:37:04 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:37:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php on line 3361
+[10-Nov-2021 21:37:56 UTC] PHP Stack trace:
+[10-Nov-2021 21:37:56 UTC] PHP   1. {main}() /home/glenkurt/Code_/WordPress/app/public/index.php:0
+[10-Nov-2021 21:37:56 UTC] PHP   2. require() /home/glenkurt/Code_/WordPress/app/public/index.php:17
+[10-Nov-2021 21:37:56 UTC] PHP   3. require_once() /home/glenkurt/Code_/WordPress/app/public/wp-blog-header.php:19
+[10-Nov-2021 21:37:56 UTC] PHP   4. include() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template-loader.php:106
+[10-Nov-2021 21:37:56 UTC] PHP   5. include() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/front-page.php:17
+[10-Nov-2021 21:37:56 UTC] PHP   6. get_template_part() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/index.php:23
+[10-Nov-2021 21:37:56 UTC] PHP   7. locate_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/general-template.php:204
+[10-Nov-2021 21:37:56 UTC] PHP   8. load_template() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:716
+[10-Nov-2021 21:37:56 UTC] PHP   9. require() /home/glenkurt/Code_/WordPress/app/public/wp-includes/template.php:772
+[10-Nov-2021 21:37:56 UTC] PHP  10. the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-content/themes/bravada/content/content.php:53
+[10-Nov-2021 21:37:56 UTC] PHP  11. get_the_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:394
+[10-Nov-2021 21:37:56 UTC] PHP  12. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/post-template.php:429
+[10-Nov-2021 21:37:56 UTC] PHP  13. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:37:56 UTC] PHP  14. wp_trim_excerpt() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303
+[10-Nov-2021 21:37:56 UTC] PHP  15. apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/formatting.php:3823
+[10-Nov-2021 21:37:56 UTC] PHP  16. WP_Hook->apply_filters() /home/glenkurt/Code_/WordPress/app/public/wp-includes/plugin.php:189
+[10-Nov-2021 21:37:56 UTC] PHP  17. convert_smilies() /home/glenkurt/Code_/WordPress/app/public/wp-includes/class-wp-hook.php:303

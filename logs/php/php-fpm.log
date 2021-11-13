@@ -1,0 +1,24 @@
+[10-Nov-2021 18:11:05] NOTICE: fpm is running, pid 26413
+[10-Nov-2021 18:11:05] NOTICE: ready to handle connections
+[10-Nov-2021 23:09:25] NOTICE: Terminating ...
+[10-Nov-2021 23:09:25] NOTICE: exiting, bye-bye!
+[11-Nov-2021 12:45:20] NOTICE: fpm is running, pid 13197
+[11-Nov-2021 12:45:20] NOTICE: ready to handle connections
+[11-Nov-2021 14:52:45] ERROR: Another FPM instance seems to already listen on /home/glenkurt/.config/Local/run/zJAXHlWTx/php/php-fpm.socket
+[11-Nov-2021 14:52:45] ERROR: FPM initialization failed
+[11-Nov-2021 14:52:45] ERROR: Another FPM instance seems to already listen on /home/glenkurt/.config/Local/run/zJAXHlWTx/php/php-fpm.socket
+[11-Nov-2021 14:52:45] ERROR: FPM initialization failed
+[11-Nov-2021 14:52:46] ERROR: Another FPM instance seems to already listen on /home/glenkurt/.config/Local/run/zJAXHlWTx/php/php-fpm.socket
+[11-Nov-2021 14:52:46] ERROR: FPM initialization failed
+[11-Nov-2021 14:52:46] ERROR: Another FPM instance seems to already listen on /home/glenkurt/.config/Local/run/zJAXHlWTx/php/php-fpm.socket
+[11-Nov-2021 14:52:46] ERROR: FPM initialization failed
+[11-Nov-2021 15:13:55] NOTICE: fpm is running, pid 4714
+[11-Nov-2021 15:13:55] NOTICE: ready to handle connections
+[12-Nov-2021 00:37:59] NOTICE: Terminating ...
+[12-Nov-2021 00:37:59] NOTICE: exiting, bye-bye!
+[12-Nov-2021 11:08:31] NOTICE: fpm is running, pid 6989
+[12-Nov-2021 11:08:31] NOTICE: ready to handle connections
+[13-Nov-2021 00:55:06] NOTICE: Terminating ...
+[13-Nov-2021 00:55:06] NOTICE: exiting, bye-bye!
+[13-Nov-2021 12:46:51] NOTICE: fpm is running, pid 8072
+[13-Nov-2021 12:46:51] NOTICE: ready to handle connections
